@@ -51,7 +51,6 @@ cd ~/operator
 ```
 
 `dev/Dockerfile`을 사용하여 개발용 이미지를 빌드합니다.
-dev/Dockerfile
 ```
 FROM golang:1.24
 
