@@ -541,7 +541,7 @@ docker push \
 
 ### 개발 이미지 빌드
 
-``` yaml
+```yaml
 FROM golang:1.24
 
 ARG OPERATOR_SDK_VERSION=v1.41.1
