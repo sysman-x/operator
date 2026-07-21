@@ -1,0 +1,9 @@
+apiVersion: apps.sysproto.com/v1alpha1
+kind: WebApp
+metadata:
+  name: my-webapp
+  namespace: default
+spec:
+  image: nginx:latest
+  replicas: 3
+  port: 80
