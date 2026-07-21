@@ -540,8 +540,8 @@ docker push \
 ## 17. 핵심 명령어 요약
 
 ### 개발 이미지 빌드
-
-```yaml
+Dockerfile
+```bash
 FROM golang:1.24
 
 ARG OPERATOR_SDK_VERSION=v1.41.1
